@@ -77,5 +77,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/lge/judyln/permissions/privapp-permissions-updater.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-updater.xml
 
+
+# GCam Go
+PRODUCT_PACKAGES += \
+    GCam
+
+# Via Browser
+PRODUCT_PACKAGES += \
+    Via
+
 # common judy (sdm845)
 $(call inherit-product, device/lge/sdm845-common/sdm845.mk)
